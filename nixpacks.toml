@@ -1,0 +1,2 @@
+[start]
+cmd = "yarn medusa db:migrate && yarn start"
