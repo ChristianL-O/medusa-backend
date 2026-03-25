@@ -1,1 +1,5 @@
+[phases.build]
+cmd = "yarn medusa db:migrate && yarn medusa build"
 
+[start]
+cmd = "cd .medusa/server && yarn install && yarn start"
